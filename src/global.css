@@ -14,17 +14,17 @@ body {
   --font-silka: Silka;
 
   /* font sizes */
-  --font-size-16xl: 35px;
-  --font-size-61xl: 80px;
+  --font-size-16xl: 25px;
+  --font-size-61xl: 60px;
   --font-size-17xl: 36px;
   --font-size-109xl: 128px;
 
-  /* Colors */
+  /* clr */
   --color-white: #fff;
   --color-darkgray: #a9a9a9;
   --color-darkslategray: #434343;
 
-  /* Gaps */
+  /* gaps */
   --gap-231xl: 250px;
   --gap-31xl: 50px;
   --gap-xl: 20px;

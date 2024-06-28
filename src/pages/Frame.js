@@ -143,6 +143,8 @@ const Frame = () => {
         <div className={styles.hiIAm}>Hi, I am Avani Tripathi</div>
       </div>
       <div className={styles.frameItem} />
+
+      <div className={styles.navbar} id="navbar" >
       <button className={styles.logo} id="logobtn">
         <img
           className={styles.avaniLogoCondensed1}
@@ -160,6 +162,7 @@ const Frame = () => {
         <button className={styles.achievements2} id="achievements">
           achievements
         </button>
+      </div>
       </div>
     </div>
   );
