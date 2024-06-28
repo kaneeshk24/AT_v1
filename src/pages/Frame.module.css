@@ -1,0 +1,426 @@
+@keyframes shadow-inset-center {
+  0% {
+    box-shadow: inset 0 0 0 0 transparent;
+  }
+  to {
+    box-shadow: inset 0 0 14px 0 rgb(0 0 0/50%);
+  }
+}
+.footerAvani1 {
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.footersect {
+  position: absolute;
+  width: 85.25%;
+  top: 14975px;
+  right: 7.35%;
+  left: 7.4%;
+  height: 393.8px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  padding: var(--padding-3xs);
+  box-sizing: border-box;
+}
+.myCoaches {
+  position: absolute;
+  top: 5219px;
+  left: calc(50% - 361px);
+  line-height: 50px;
+  font-family: var(--font-dirtyline-36daysoftype-2022);
+}
+.child,
+.div {
+  position: relative;
+}
+.div {
+  font-size: var(--font-size-61xl);
+  line-height: 50px;
+  font-weight: 900;
+  font-family: var(--font-silka);
+  color: var(--color-white);
+  text-align: left;
+}
+.child {
+  width: 300px;
+  border-radius: var(--br-base);
+  background-color: var(--color-darkslategray);
+  height: 5px;
+}
+.button,
+.button4,
+.years {
+  display: flex;
+  flex-direction: column;
+}
+.button,
+.button4 {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  align-items: center;
+  justify-content: center;
+  gap: var(--gap-xl);
+}
+.button4:hover {
+  animation: 1s ease 0s infinite normal none shadow-inset-center;
+  opacity: 1;
+}
+.years {
+  position: absolute;
+  top: 0;
+  left: calc(50% - 150px);
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-231xl);
+}
+.silverIcon {
+  width: 80px;
+  position: relative;
+  height: 80px;
+  object-fit: cover;
+}
+.icn,
+.icn3,
+.inc {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.icn3,
+.inc {
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-31xl);
+}
+.icn3 {
+  align-items: center;
+}
+.icons,
+.stats {
+  position: absolute;
+  left: calc(50% - 365px);
+}
+.icons {
+  top: 91px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: var(--gap-231xl);
+}
+.stats {
+  top: 206px;
+  width: 730px;
+  height: 1491px;
+}
+.clickToExpand {
+  position: absolute;
+  top: 0;
+  left: calc(50% - 142.5px);
+  line-height: 50px;
+}
+.achievements,
+.instruction {
+  position: absolute;
+  top: 0;
+  left: calc(50% - 142px);
+  width: 285px;
+  height: 50px;
+}
+.achievements {
+  top: 3025px;
+  left: calc(50% - 365px);
+  width: 730px;
+  height: 1697px;
+  text-align: left;
+  font-size: var(--font-size-17xl);
+  color: #7c7c7c;
+}
+.myAchievements {
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+  line-height: 98px;
+}
+.achievements1 {
+  position: absolute;
+  top: 2885px;
+  left: calc(50% - 553px);
+  width: 1096px;
+  height: 70px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  padding: var(--padding-3xs);
+  box-sizing: border-box;
+  font-family: var(--font-dirtyline-36daysoftype-2022);
+}
+.aboutimgIcon {
+  width: 1920px;
+  position: relative;
+  height: 1280px;
+  object-fit: cover;
+}
+.aboutmebg {
+  position: absolute;
+  top: 1279px;
+  left: calc(50% - 970px);
+  width: 1940px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-3xs);
+  box-sizing: border-box;
+}
+.gradient3Child {
+  width: 1922px;
+  position: relative;
+  background: linear-gradient(180deg, transparent, #0e0e0e 79.86%);
+  height: 426px;
+}
+.gradient3 {
+  position: absolute;
+  top: 2133px;
+  left: calc(50% - 971px);
+  width: 1942px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-3xs);
+  box-sizing: border-box;
+}
+.gradient2Child {
+  width: 1922px;
+  position: relative;
+  background: linear-gradient(0deg, transparent, #0e0e0e 79.86%);
+  height: 776px;
+}
+.gradient2 {
+  position: absolute;
+  top: 1279px;
+  left: calc(50% - 971px);
+  width: 1942px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-3xs);
+  box-sizing: border-box;
+}
+.iHaveBeen {
+  margin: 0;
+}
+.iHaveBeenContainer {
+  flex: 1;
+  position: relative;
+  line-height: 50px;
+  text-shadow: 0 0 20px #000;
+}
+.aboutdes {
+  position: absolute;
+  width: 84.07%;
+  top: 1224px;
+  right: 7.91%;
+  left: 8.02%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-3xs);
+  box-sizing: border-box;
+  font-size: 40px;
+  color: var(--color-darkgray);
+}
+.heroimgIcon {
+  width: 1812px;
+  position: relative;
+  height: 906px;
+  object-fit: cover;
+}
+.herobg {
+  position: absolute;
+  top: 156px;
+  left: calc(50% - 902px);
+  width: 1940px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-3xs);
+  box-sizing: border-box;
+}
+.gradient1Child {
+  width: 1922px;
+  position: relative;
+  background: linear-gradient(180deg, transparent, #0e0e0e);
+  height: 469px;
+}
+.gradient1 {
+  position: absolute;
+  top: 648px;
+  left: calc(50% - 904px);
+  width: 1942px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-3xs);
+  box-sizing: border-box;
+}
+.frameChild {
+  position: absolute;
+  top: 1030px;
+  left: calc(50% + 18px);
+  max-height: 100%;
+  width: 44.2px;
+  object-fit: contain;
+}
+.iAmAn {
+  width: 769px;
+  position: relative;
+  line-height: 50px;
+  display: inline-block;
+  flex-shrink: 0;
+}
+.intro2 {
+  position: absolute;
+  width: 44.25%;
+  top: 905px;
+  right: 26.81%;
+  left: 28.94%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-3xs);
+  box-sizing: border-box;
+  font-size: var(--font-size-17xl);
+  color: var(--color-darkgray);
+}
+.hiIAm {
+  align-self: stretch;
+  width: 1082px;
+  position: relative;
+  line-height: 50px;
+  display: inline-block;
+  flex-shrink: 0;
+}
+.intro {
+  position: absolute;
+  top: 838px;
+  left: calc(50% - 533px);
+  width: 1102px;
+  height: 70px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-3xs);
+  box-sizing: border-box;
+  font-size: var(--font-size-61xl);
+}
+.frameItem {
+  position: absolute;
+  top: 0;
+  left: calc(50% - 960px);
+  background-color: #000;
+  width: 1920px;
+  height: 165px;
+}
+.avaniLogoCondensed1 {
+  width: 171px;
+  position: relative;
+  height: 278px;
+  object-fit: cover;
+}
+.logo {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-3xs);
+  background-color: transparent;
+  position: absolute;
+  top: 26px;
+  left: 102px;
+  width: 191px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.line,
+.lineChild,
+.logo {
+  box-sizing: border-box;
+}
+.lineChild {
+  width: 1505px;
+  position: relative;
+  border-top: 5px solid var(--color-white);
+  height: 5px;
+}
+.line {
+  position: absolute;
+  top: 145px;
+  left: 247px;
+  width: 1523px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-3xs);
+}
+.about,
+.achievements2 {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  width: 118px;
+  position: relative;
+  font-size: var(--font-size-16xl);
+  line-height: 50px;
+  font-family: var(--font-dirtyline-36daysoftype-2022);
+  color: var(--color-white);
+  text-align: left;
+  display: inline-block;
+  flex-shrink: 0;
+}
+.achievements2 {
+  width: 316px;
+}
+.links {
+  position: absolute;
+  top: 121px;
+  right: 37px;
+  width: 486px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 0 60px;
+  box-sizing: border-box;
+}
+.footersectParent {
+  width: 100%;
+  position: relative;
+  background-color: #0e0e0e;
+  height: 15678px;
+  overflow: hidden;
+  text-align: center;
+  font-size: var(--font-size-109xl);
+  color: var(--color-white);
+  font-family: var(--font-silka);
+}
