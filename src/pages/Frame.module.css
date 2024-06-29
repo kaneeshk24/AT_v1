@@ -31,7 +31,7 @@
 }
 .myCoaches {
   position: absolute;
-  top: 5219px;
+  top: 4524px;
   left: calc(50% - 361px);
   line-height: 50px;
   font-family: var(--font-dirtyline-36daysoftype-2022);
@@ -138,7 +138,7 @@
   height: 50px;
 }
 .achievements {
-  top: 3025px;
+  top: 2424px;
   left: calc(50% - 365px);
   width: 730px;
   height: 1697px;
@@ -154,10 +154,12 @@
 }
 .achievements1 {
   position: absolute;
-  top: 2885px;
-  left: calc(50% - 553px);
-  width: 1096px;
-  height: 70px;
+  top: 2224px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 80%; 
+  max-width: 1096px;
+  height: auto; 
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -165,18 +167,21 @@
   padding: var(--padding-3xs);
   box-sizing: border-box;
   font-family: var(--font-dirtyline-36daysoftype-2022);
+  font-size: 9vw; 
 }
 .aboutimgIcon {
   width: 1920px;
   position: relative;
-  height: 1280px;
+  height: 1080px;
   object-fit: cover;
 }
 .aboutmebg {
   position: absolute;
-  top: 1279px;
-  left: calc(50% - 970px);
-  width: 1940px;
+  top: 924px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100%;
+  max-width: 1940px;
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -192,7 +197,7 @@
 }
 .gradient3 {
   position: absolute;
-  top: 2133px;
+  top: 1624px;
   left: calc(50% - 971px);
   width: 1942px;
   display: flex;
@@ -210,7 +215,7 @@
 }
 .gradient2 {
   position: absolute;
-  top: 1279px;
+  top: 824px;
   left: calc(50% - 971px);
   width: 1942px;
   display: flex;
@@ -232,16 +237,17 @@
 .aboutdes {
   position: absolute;
   width: 84.07%;
-  top: 1224px;
+  top: 824px;
   right: 7.91%;
-  left: 8.02%;
+  left: 50%;
+  transform: translateX(-50%);
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: center;
   padding: var(--padding-3xs);
   box-sizing: border-box;
-  font-size: 40px;
+  font-size: 2.5vw;
   color: var(--color-darkgray);
 }
 .heroimgIcon {
@@ -311,7 +317,7 @@
 }
 .gradient1 {
   position: absolute;
-  top: 299px;
+  top: 284px;
   left: calc(50% - 904px);
   width: 1942px;
   display: flex;
@@ -324,9 +330,11 @@
 .frameChild {
   position: absolute;
   top: 700px;
-  left: calc(50% + 18px);
+  left: 40%;
+  transform: translateX(117px);
   max-height: 100%;
-  width: 44.2px;
+  width: 2vw;
+  max-width: 44.2px;
   object-fit: contain;
 }
 .iAmAn {
@@ -417,26 +425,57 @@
 }
 
 @media (max-width: 992px) {
-  .gradient1 {
-    top: 200px;
+  .gradient1, .gradient2, .gradient3 {
     max-width: 1500px; 
   }
-  .intro {
-    top: 450px;
+  .gradient1 {
+    top: 124px;
+  }
+  .gradient2{
+    top: 800px;
+  }
+  .gradient3{
+    top: 1524px;
+  }
+  .intro, .intro2, .aboutdes {
     font-size: 3vw; 
   }
-  .intro2 {
+  .intro{
+    top: 450px;
+  }
+  .intro2{
     top: 500px; 
-    font-size: 3vw;
+  }
+  .aboutdes {
+    top: 688px;
+  }  
+  .frameChild {
+    top: 600px; 
+    width: 4vw; 
+    transform: translateX(68px);
+  }
+  .aboutmebg {
+    top: 800px; 
+    max-width: 1300px;
   }
 }
-@media (max-width: 768px) {
+@media (max-width: 768px) {ld
   .logo {
     width: 15vw;
   }
-  .gradient1 {
-    top: 150px; 
-    max-width: 1300px;
+  .gradient1, .gradient2, .gradient3 {
+
+    max-width: 1500px;
+
+  }
+  .gradient1{
+    top: 100px; 
+  }
+  .gradient2{
+    top: 624px;
+  }
+  .gradient3{
+    top: 1424px;
   }
   .intro {
     top: 400px; 
@@ -446,6 +485,20 @@
     top: 450px; 
     font-size: 3.5vw; 
   }
+  .aboutdes {
+    top: 624px; 
+    font-size: 3.5vw;
+  }
+  .frameChild {
+    top: 550px; 
+    width: 5vw; 
+    transform: translateX(48px);
+  }
+  .aboutmebg {
+    top: 754px; 
+    max-width: 1000px;
+  }
+
 }
 
 @media (max-width: 480px) {
@@ -456,6 +509,7 @@
     top: 50px;
     max-width: 700px;
   }
+
   .intro {
     top: 350px;
     font-size: 2vw;
@@ -463,6 +517,10 @@
   .intro2 {
     top: 400px;
     font-size: 4vw; 
+  }
+  frameChild {
+    top: 500px; 
+    width: 6vw; 
   }
 }
 
