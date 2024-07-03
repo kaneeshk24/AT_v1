@@ -1,14 +1,14 @@
+import Xslider from "../components/Xslider";
 import styles from "./Frame.module.css";
 
 const Frame = () => {
   return (
-    <div className={styles.footersectParent}>
+    <><div><div className={styles.footersectParent}>
       <div className={styles.footersect}>
         <img
           className={styles.footerAvani1}
           alt=""
-          src="/footer-avani-1@2x.png"
-        />
+          src="/footer-avani-1@2x.png" />
       </div>
       <div className={styles.myCoaches}>my coAches</div>
       <div className={styles.achievements}>
@@ -44,8 +44,7 @@ const Frame = () => {
               <img
                 className={styles.silverIcon}
                 alt=""
-                src="/image-95@2x.png"
-              />
+                src="/image-95@2x.png" />
               <img className={styles.silverIcon} alt="" src="/gold@2x.png" />
             </div>
             <div className={styles.inc}>
@@ -53,18 +52,15 @@ const Frame = () => {
               <img
                 className={styles.silverIcon}
                 alt=""
-                src="/image-96@2x.png"
-              />
+                src="/image-96@2x.png" />
               <img
                 className={styles.silverIcon}
                 alt=""
-                src="/image-97@2x.png"
-              />
+                src="/image-97@2x.png" />
               <img
                 className={styles.silverIcon}
                 alt=""
-                src="/image-98@2x.png"
-              />
+                src="/image-98@2x.png" />
               <img className={styles.silverIcon} alt="" src="/silver@2x.png" />
               <img className={styles.silverIcon} alt="" src="/bronze@2x.png" />
             </div>
@@ -75,23 +71,19 @@ const Frame = () => {
               <img
                 className={styles.silverIcon}
                 alt=""
-                src="/image-99@2x.png"
-              />
+                src="/image-99@2x.png" />
               <img
                 className={styles.silverIcon}
                 alt=""
-                src="/image-96@2x.png"
-              />
+                src="/image-96@2x.png" />
               <img
                 className={styles.silverIcon}
                 alt=""
-                src="/image-102@2x.png"
-              />
+                src="/image-102@2x.png" />
               <img
                 className={styles.silverIcon}
                 alt=""
-                src="/image-101@2x.png"
-              />
+                src="/image-101@2x.png" />
             </div>
           </div>
         </div>
@@ -144,28 +136,30 @@ const Frame = () => {
       </div>
       <div className={styles.frameItem} />
 
-      <div className={styles.navbar} id="navbar" >
-      <button className={styles.logo} id="logobtn">
-        <img
-          className={styles.avaniLogoCondensed1}
-          alt=""
-          src="/avani--logo-condensed-1@2x.png"
-        />
-      </button>
-      <div className={styles.line}>
-        <div className={styles.lineChild} />
-      </div>
-      <div className={styles.links}>
-        <button className={styles.about} id="about">
-          about
+      <div className={styles.navbar} id="navbar">
+        <button className={styles.logo} id="logobtn">
+          <img
+            className={styles.avaniLogoCondensed1}
+            alt=""
+            src="/avani--logo-condensed-1@2x.png" />
         </button>
-        <button className={styles.achievements2} id="achievements">
-          achievements
-        </button>
-      </div>
+        <div className={styles.line}>
+          <div className={styles.lineChild} />
+        </div>
+        <div className={styles.links}>
+          <button className={styles.about} id="about">
+            about
+          </button>
+          <button className={styles.achievements2} id="achievements">
+            achievements
+          </button>
+        </div>
       </div>
     </div>
+    </div><Xslider></Xslider></>
+
   );
 };
 
 export default Frame;
+
