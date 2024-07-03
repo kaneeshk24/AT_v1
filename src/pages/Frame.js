@@ -1,9 +1,10 @@
 import Xslider from "../components/Xslider";
+import Ytimeline from "../components/Ytimeline";
 import styles from "./Frame.module.css";
 
 const Frame = () => {
   return (
-    <><div><div className={styles.footersectParent}>
+    <><><div><div className={styles.footersectParent}>
       <div className={styles.footersect}>
         <img
           className={styles.footerAvani1}
@@ -157,6 +158,7 @@ const Frame = () => {
       </div>
     </div>
     </div><Xslider></Xslider></>
+    <Ytimeline></Ytimeline></>
 
   );
 };

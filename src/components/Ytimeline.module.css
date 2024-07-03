@@ -1,0 +1,18 @@
+.timeline{
+    position: absolute;
+    max-width: 1200px;
+    top: 6000px;
+}
+.container{
+    padding: 10px 50px;
+    position: relative;
+    width: 50%;
+    background: rgba(0,0,0, 0.3);
+}
+.textbox{
+    padding: 20px 30px;
+    background: #fff;
+    position: relative;
+    border-radius: 7px;
+    font-size: 17px;
+}
