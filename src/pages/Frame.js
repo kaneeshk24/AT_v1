@@ -157,7 +157,8 @@ const Frame = () => {
         </div>
       </div>
     </div>
-    </div><Xslider></Xslider></>
+    </div>
+    {/* <Xslider></Xslider></> */}</>
     <Ytimeline></Ytimeline></>
 
   );

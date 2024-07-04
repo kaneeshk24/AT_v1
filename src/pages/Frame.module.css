@@ -601,10 +601,15 @@
   font-family: var(--font-silka);
 }
 
-.Xslider {
+/* .Xslider {
   position: absolute;
   top: 6143px;
   left: calc(50% - 4082px);
   line-height: 50px;
   font-weight: 900;
+} */
+.timeline{
+  top: 43px;
+  left: calc(50% - 403382px);
+
 }
