@@ -9,14 +9,14 @@
     padding: 10px 50px;
     position: relative;
     width: 50%;
-    background: rgba(100, 100, 100, 0.3);
+    background: rgba(0, 0, 0, 0.3);
 }
 .containerRight{
     left: 54%;
     padding: 10px 50px;
     position: relative;
     width: 45%;
-    background: rgba(100, 100, 100, 0.3);
+    background: rgba(0, 0, 0, 0.3);
 }
 .textbox{
     padding: 20px 30px;
@@ -38,8 +38,8 @@ font-style: italic;
 }
 
   .elipse {
-    top: 42px;
-    right: -7px;
+    top: 42%;
+    right: 0;
     z-index: 10;
     position: absolute;
     border-radius: 50%;
@@ -48,8 +48,8 @@ font-style: italic;
     height: 37.5px;
   }
 .elipseRt{
-    left: -20px;
-    top: 42px;
+    left: 0;
+    top: 42%;
     z-index: 10;
     position: absolute;
     border-radius: 50%;
