@@ -159,7 +159,7 @@ const Frame = () => {
     </div>
     </div>
     {/* <Xslider></Xslider></> */}</>
-    <Ytimeline></Ytimeline></>
+    <Ytimeline className={styles.Ytimeline}></Ytimeline></>
 
   );
 };
