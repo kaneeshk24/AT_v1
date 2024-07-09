@@ -87,8 +87,7 @@ const Frame = () => {
                 src="/image-101@2x.png" />
             </div>
           </div>
-        </div>
-        <div className={styles.instruction}>
+        </div>        <div className={styles.instruction}>
           <i className={styles.clickToExpand}>Click to expand</i>
         </div>
       </div>
@@ -158,9 +157,8 @@ const Frame = () => {
       </div>
     </div>
     </div>
-    {/* <Xslider></Xslider></> */}</>
-    <Ytimeline className={styles.timeline}></Ytimeline></>
-
+    {/* <Xslider></Xslider></> */}
+    <Ytimeline /></></>
   );
 };
 
