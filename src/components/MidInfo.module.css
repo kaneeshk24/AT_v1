@@ -1,0 +1,315 @@
+.myAchievements {
+    width: 863px;
+    position: relative;
+    line-height: 50px;
+    display: inline-block;
+    flex-shrink: 0;
+  }
+  .title {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    font-family: var(--font-dirtyline-36daysoftype-2022);
+  }
+  .clickToExpand {
+    position: relative;
+    line-height: 50px;
+  }
+  .click {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    text-align: center;
+    font-size: var(--font-size-17xl);
+    color: var(--color-gray-100);
+  }
+  .headChild {
+    width: 202px;
+    position: relative;
+    border-radius: var(--br-base);
+    background-color: var(--color-darkslategray);
+    height: 3px;
+  }
+  .head {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: var(--gap-xl);
+  }
+  .silverIcon {
+    width: 80px;
+    position: relative;
+    height: 80px;
+    object-fit: cover;
+  }
+  .silverMedal2nd {
+    margin: 0;
+  }
+  .silverMedal2ndContainer {
+    width: 739px;
+    position: relative;
+    line-height: 50px;
+    display: inline-block;
+    height: 96px;
+    flex-shrink: 0;
+  }
+  .content,
+  .div {
+    display: flex;
+    align-items: center;
+  }
+  .content {
+    width: 894px;
+    border-radius: var(--br-5xl);
+    background: linear-gradient(89.28deg, #454545, #13002c);
+    height: 100px;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: var(--padding-xl);
+    box-sizing: border-box;
+    font-size: var(--font-size-5xl);
+  }
+  .div {
+    width: 1200px;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: var(--gap-xl);
+  }
+  .headItem {
+    width: 192px;
+    position: relative;
+    border-radius: var(--br-base);
+    background-color: var(--color-darkslategray);
+    height: 5px;
+  }
+  .bronzeMedal3rd {
+    flex: 1;
+    position: relative;
+    line-height: 50px;
+  }
+  .bronzeParent {
+    width: 1200px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: var(--gap-32xl);
+  }
+  .image94Icon {
+    width: 80px;
+    position: relative;
+    border-radius: var(--br-mid);
+    height: 80px;
+    object-fit: cover;
+  }
+  .indiaRank {
+    width: 529px;
+    position: relative;
+    line-height: 50px;
+    display: inline-block;
+    height: 41px;
+    flex-shrink: 0;
+  }
+  .whatsappImage20240515At2 {
+    width: 388px;
+    position: relative;
+    border-radius: var(--br-5xl);
+    height: 383px;
+    object-fit: cover;
+  }
+  .content1,
+  .div2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .content1 {
+    align-self: stretch;
+    border-radius: var(--br-5xl);
+    background: linear-gradient(81.63deg, #454545, #13002c);
+    height: 795px;
+    justify-content: center;
+    gap: var(--gap-25xl);
+    font-size: var(--font-size-5xl);
+  }
+  .div2 {
+    width: 1200px;
+    height: 887px;
+    justify-content: space-between;
+  }
+  .headInner {
+    width: 222px;
+    position: relative;
+    border-radius: var(--br-base);
+    background-color: var(--color-darkslategray);
+    height: 3px;
+  }
+  .whatsappImage20240515At21,
+  .whatsappImage20240515At22 {
+    width: 395px;
+    position: relative;
+    border-radius: var(--br-5xl);
+    height: 284px;
+    object-fit: cover;
+  }
+  .whatsappImage20240515At22 {
+    width: 487px;
+  }
+  .content2,
+  .div4,
+  .div9 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .div9 {
+    flex-direction: row;
+    gap: var(--gap-25xl);
+  }
+  .content2,
+  .div4 {
+    flex-direction: column;
+  }
+  .content2 {
+    align-self: stretch;
+    border-radius: var(--br-5xl);
+    background: linear-gradient(77.33deg, #454545, #13002c);
+    gap: var(--gap-25xl);
+    font-size: var(--font-size-5xl);
+  }
+  .div4 {
+    width: 1200px;
+    gap: var(--gap-xl);
+  }
+  .rectangleDiv {
+    width: 216px;
+    position: relative;
+    border-radius: var(--br-base);
+    background-color: var(--color-darkslategray);
+    height: 3px;
+  }
+  .silverMedal2ndContainer1 {
+    width: 731px;
+    position: relative;
+    line-height: 50px;
+    display: inline-block;
+    height: 90px;
+    flex-shrink: 0;
+  }
+  .div11 {
+    width: 1200px;
+    height: 193px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .headChild1 {
+    width: 300px;
+    position: relative;
+    border-radius: var(--br-base);
+    background-color: var(--color-darkslategray);
+    height: 5px;
+  }
+  .groupChild {
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: var(--br-mid);
+    background-color: var(--color-gray-200);
+    width: 80px;
+    height: 80px;
+  }
+  .div20 {
+    position: absolute;
+    top: calc(50% - 25px);
+    left: calc(50% - 33px);
+    line-height: 50px;
+  }
+  .rectangleParent {
+    width: 80px;
+    position: relative;
+    height: 80px;
+  }
+  .currentInternationalRank {
+    flex: 1;
+    position: relative;
+    font-size: var(--font-size-5xl);
+    line-height: 50px;
+    color: var(--color-white);
+  }
+  .content4,
+  .div19 {
+    display: flex;
+    justify-content: flex-start;
+    gap: var(--gap-32xl);
+  }
+  .div19 {
+    width: 1200px;
+    flex-direction: row;
+    align-items: center;
+    font-size: var(--font-size-17xl);
+    color: #29ff7e;
+  }
+  .content4 {
+    align-self: stretch;
+    border-radius: var(--br-5xl);
+    background: linear-gradient(86.17deg, #454545, #13002c);
+    flex-direction: column;
+    align-items: flex-start;
+    font-size: var(--font-size-5xl);
+  }
+  .div13 {
+    width: 1200px;
+    align-items: center;
+    gap: var(--gap-xl);
+    font-size: var(--font-size-61xl);
+  }
+  .achievements,
+  .div13,
+  .stats {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+  .stats {
+    margin: 0;
+    align-items: flex-end;
+    gap: 150px;
+    font-size: var(--font-size-31xl);
+  }
+  .achievements {
+    position: absolute;
+    top: 103px;
+    left: 336px;
+    width: 1248px;
+    align-items: center;
+    gap: 156px;
+  }
+  .achinfo,
+  .midinfo {
+    height: 4068px;
+    overflow: hidden;
+  }
+  .achinfo {
+    position: absolute;
+    top: 0;
+    left: calc(50% - 960px);
+    width: 1920px;
+  }
+  .midinfo {
+    width: 1440px;
+    background-color: var(--color-gray-200);
+    max-width: 100%;
+    text-align: left;
+    font-size: 101px;
+    color: var(--color-white);
+    font-family: var(--font-silka);
+  }
+  

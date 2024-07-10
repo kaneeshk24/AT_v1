@@ -4,7 +4,7 @@ import styles from "./Frame.module.css";
 
 const Frame = () => {
   return (
-    <><><div><div className={styles.footersectParent}>
+    <><><><div><div className={styles.footersectParent}>
       <div className={styles.footersect}>
         <img
           className={styles.footerAvani1}
@@ -13,7 +13,7 @@ const Frame = () => {
       </div>
       <div className={styles.myCoaches}>my coAches</div>
       <div className={styles.achievements}>
-        <div className={styles.stats}>
+        {/* <div className={styles.stats}>
           <div className={styles.years}>
             <button className={styles.button} id="19btn">
               <div className={styles.div}>2019</div>
@@ -87,10 +87,11 @@ const Frame = () => {
                 src="/image-101@2x.png" />
             </div>
           </div>
-        </div>        <div className={styles.instruction}>
+        </div>        
+        <div className={styles.instruction}>
           <i className={styles.clickToExpand}>Click to expand</i>
-        </div>
-      </div>
+        </div>*/}
+      </div> 
       <div className={styles.achievements1}>
         <div className={styles.myAchievements}>my Achievements</div>
       </div>
@@ -158,7 +159,7 @@ const Frame = () => {
     </div>
     </div>
     {/* <Xslider></Xslider></> */}
-    <Ytimeline /></></>
+    <Ytimeline /> </></></>
   );
 };
 
