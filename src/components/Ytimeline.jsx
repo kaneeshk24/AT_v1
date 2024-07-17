@@ -1,6 +1,10 @@
 import { useEffect, useRef } from "react";
 import styles from "./Ytimeline.module.css";
 
+const escapeClassName = (className) => {
+    return className.replace(/[!"#$%&'()*+,.\/:;<=>?@[\\\]^`{|}~]/g, '\\$&');
+};
+
 const Ytimeline = ({ className = "" }) => {
     const timelineRef = useRef(null);
 
@@ -18,7 +22,10 @@ const Ytimeline = ({ className = "" }) => {
             }
         );
 
-        const elements = timelineRef.current.querySelectorAll(`.${styles.containerLeft}, .${styles.containerRight}`);
+        const containerLeftClass = escapeClassName(styles.containerLeft);
+        const containerRightClass = escapeClassName(styles.containerRight);
+
+        const elements = timelineRef.current.querySelectorAll(`.${containerLeftClass}, .${containerRightClass}`);
         elements.forEach((element) => {
             observer.observe(element);
         });
@@ -49,7 +56,8 @@ const Ytimeline = ({ className = "" }) => {
                     <div className={styles.h2}>Vibhore Khare</div>
                     <div className={styles.small}>2018-2020</div>
                     <div className={styles.p}>
-                    It took me a while to start taking Table Tennis seriously and it was under Vibhore sir when I actually started to put extra efforts and push myself.                     </div>
+                    It took me a while to start taking Table Tennis seriously and it was under Vibhore sir when I actually started to put extra efforts and push myself.
+                    </div>
                 </div>
             </div>
 
@@ -59,7 +67,7 @@ const Ytimeline = ({ className = "" }) => {
                     <div className={styles.h2}>Nikita Kapur</div>
                     <div className={styles.small}>2020-2024</div>
                     <div className={styles.p}>
-                    It took me a while to start taking Table Tennis seriously and it was under Vibhore sir when I actually started to put extra efforts and push myself. 
+                    It took me a while to start taking Table Tennis seriously and it was under Vibhore sir when I actually started to put extra efforts and push myself.
                     </div>
                 </div>
             </div>
@@ -70,7 +78,7 @@ const Ytimeline = ({ className = "" }) => {
                     <div className={styles.h2}>Raman Subrahmanyan</div>
                     <div className={styles.small}>2024</div>
                     <div className={styles.p}>
-                    It took me a while to start taking Table Tennis seriously and it was under Vibhore sir when I actually started to put extra efforts and push myself. 
+                    It took me a while to start taking Table Tennis seriously and it was under Vibhore sir when I actually started to put extra efforts and push myself.
                     </div>
                 </div>
             </div>
