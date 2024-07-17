@@ -1,8 +1,9 @@
 import { useEffect, useRef } from "react";
 import styles from "./Ytimeline.module.css";
 
+// helper function to escape special characters in class names for resolving vercel issues
 const escapeClassName = (className) => {
-    return className.replace(/[!"#$%&'()*+,.\/:;<=>?@[\\\]^`{|}~]/g, '\\$&');
+    return className.replace(/[!"#$%&'()*+,.\/:;<=>?@[\\\]^`{|}~]/g, '\\$&'); 
 };
 
 const Ytimeline = ({ className = "" }) => {
@@ -22,6 +23,8 @@ const Ytimeline = ({ className = "" }) => {
             }
         );
 
+
+        // escape special characters in the dynamically generated class names
         const containerLeftClass = escapeClassName(styles.containerLeft);
         const containerRightClass = escapeClassName(styles.containerRight);
 
