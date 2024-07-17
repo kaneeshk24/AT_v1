@@ -6,17 +6,14 @@ const MidInfo = ({ className = "" }) => {
     <div className={[styles.midinfo, className].join(" ")}>
       <div className={styles.achinfo}>
         <div className={styles.achievements}>
-          <div className={styles.title}>
-            <div className={styles.myAchievements}>my Achievements</div>
-          </div>
           <div className={styles.click}>
-            <i className={styles.clickToExpand}>Click to expand</i>
+            <i className={styles.clickToExpand}>  Click to expand</i>
           </div>
           <ul className={styles.stats}>
             <div className={styles.div}>
               <div className={styles.head}>
                 <div className={styles.clickToExpand}>2019</div>
-                <div className={styles.headChild} />
+                <div className={styles.rectangleDiv} />
               </div>
               <div className={styles.content}>
                 <img
@@ -37,7 +34,7 @@ const MidInfo = ({ className = "" }) => {
             <div className={styles.div2}>
               <div className={styles.head}>
                 <div className={styles.clickToExpand}>2021</div>
-                <div className={styles.headItem} />
+                <div className={styles.rectangleDiv} />
               </div>
               <div className={styles.content1}>
                 <div className={styles.bronzeParent}>
@@ -66,7 +63,7 @@ const MidInfo = ({ className = "" }) => {
                   <img
                     className={styles.image94Icon}
                     alt=""
-                    src="/image-94@2x.png"
+                    src="/image-95@2x.png"
                   />
                   <div className={styles.indiaRank}>
                     INDIA RANK - 1 (Under 15 Category)
@@ -74,7 +71,7 @@ const MidInfo = ({ className = "" }) => {
                   <img
                     className={styles.whatsappImage20240515At2}
                     alt=""
-                    src="/whatsapp-image-20240515-at-253-12@2x.png"
+                    src="/waimg-1.png"
                   />
                 </div>
               </div>
@@ -82,7 +79,7 @@ const MidInfo = ({ className = "" }) => {
             <div className={styles.div4}>
               <div className={styles.head}>
                 <div className={styles.clickToExpand}>2022</div>
-                <div className={styles.headInner} />
+                <div className={styles.rectangleDiv} />
               </div>
               <div className={styles.content2}>
                 <div className={styles.bronzeParent}>
@@ -102,7 +99,7 @@ const MidInfo = ({ className = "" }) => {
                   <img
                     className={styles.image94Icon}
                     alt=""
-                    src="/image-951@2x.png"
+                    src="/image-96@2x.png"
                   />
                   <div className={styles.bronzeMedal3rd}>
                     Represented India in WTT Youth Contender Tournament,
@@ -113,7 +110,7 @@ const MidInfo = ({ className = "" }) => {
                   <img
                     className={styles.image94Icon}
                     alt=""
-                    src="/image-961@2x.png"
+                    src="/image-97@2x.png"
                   />
                   <div className={styles.bronzeMedal3rd}>
                     Represented India at the Asian Junior Championship, Laos
@@ -123,19 +120,19 @@ const MidInfo = ({ className = "" }) => {
                   <img
                     className={styles.whatsappImage20240515At21}
                     alt=""
-                    src="/whatsapp-image-20240515-at-253-9@2x.png"
+                    src="/waimg-2.png"
                   />
                   <img
                     className={styles.whatsappImage20240515At22}
                     alt=""
-                    src="/whatsapp-image-20240515-at-253-6@2x.png"
+                    src="/waimg-3.png"
                   />
                 </div>
                 <div className={styles.bronzeParent}>
                   <img
                     className={styles.image94Icon}
                     alt=""
-                    src="/image-962@2x.png"
+                    src="/image-98@2x.png"
                   />
                   <img
                     className={styles.silverIcon}
@@ -177,14 +174,14 @@ const MidInfo = ({ className = "" }) => {
             <div className={styles.div13}>
               <div className={styles.head}>
                 <div className={styles.clickToExpand}>2024</div>
-                <div className={styles.headChild1} />
+                <div className={styles.rectangleDiv} />
               </div>
               <div className={styles.content4}>
                 <div className={styles.bronzeParent}>
                   <img
                     className={styles.image94Icon}
                     alt=""
-                    src="/image-981@2x.png"
+                    src="/image-99@2x.png"
                   />
                   <div className={styles.bronzeMedal3rd}>
                     Represented India in WTT Youth Contender Tournament Berlin,
@@ -195,7 +192,7 @@ const MidInfo = ({ className = "" }) => {
                   <img
                     className={styles.image94Icon}
                     alt=""
-                    src="/image-951@2x.png"
+                    src="/image-96@2x.png"
                   />
                   <div className={styles.bronzeMedal3rd}>
                     Represented India in WTT Youth Contender Tournament
@@ -206,7 +203,7 @@ const MidInfo = ({ className = "" }) => {
                   <img
                     className={styles.image94Icon}
                     alt=""
-                    src="/image-1011@2x.png"
+                    src="/image-102@2x.png"
                   />
                   <div className={styles.bronzeMedal3rd}>
                     Represented India in WTT Youth Contender Tournament Amman,
@@ -217,7 +214,7 @@ const MidInfo = ({ className = "" }) => {
                   <img
                     className={styles.image94Icon}
                     alt=""
-                    src="/image-100@2x.png"
+                    src="/image-101@2x.png"
                   />
                   <div className={styles.bronzeMedal3rd}>
                     Represented India in WTT Youth Contender Tournament Almaty,

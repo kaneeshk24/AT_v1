@@ -3,19 +3,11 @@
     position: relative;
     line-height: 50px;
     display: inline-block;
-    flex-shrink: 0;
-  }
-  .title {
-    align-self: stretch;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    font-family: var(--font-dirtyline-36daysoftype-2022);
+    flex-shrink: 1;
   }
   .clickToExpand {
     position: relative;
-    line-height: 50px;
+    line-height: 24px;
   }
   .click {
     align-self: stretch;
@@ -23,30 +15,23 @@
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    padding: 10px;
     text-align: center;
-    font-size: var(--font-size-17xl);
-    color: var(--color-gray-100);
-  }
-  .headChild {
-    width: 202px;
-    position: relative;
-    border-radius: var(--br-base);
-    background-color: var(--color-darkslategray);
-    height: 3px;
+    font-size: 24px;
+    color: gray;
   }
   .head {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    gap: var(--gap-xl);
+    gap: 20px;
   }
   .silverIcon {
     width: 80px;
     position: relative;
     height: 80px;
-    object-fit: cover;
+    /* left: 7px; */
+    /* object-fit: cover; */
   }
   .silverMedal2nd {
     margin: 0;
@@ -66,31 +51,26 @@
   }
   .content {
     width: 894px;
-    border-radius: var(--br-5xl);
+    border-radius: 24px;
     background: linear-gradient(89.28deg, #454545, #13002c);
     height: 100px;
     flex-direction: row;
     justify-content: space-between;
-    padding: var(--padding-xl);
+    padding: 16px;
     box-sizing: border-box;
-    font-size: var(--font-size-5xl);
+    font-size: 24px; 
   }
   .div {
     width: 1200px;
     flex-direction: column;
     justify-content: flex-start;
-    gap: var(--gap-xl);
+    gap: 16px;
   }
-  .headItem {
-    width: 192px;
-    position: relative;
-    border-radius: var(--br-base);
-    background-color: var(--color-darkslategray);
-    height: 5px;
-  }
+
   .bronzeMedal3rd {
     flex: 1;
     position: relative;
+    left: 7px;
     line-height: 50px;
   }
   .bronzeParent {
@@ -99,12 +79,12 @@
     flex-direction: row;
     align-items: center;
     justify-content: flex-start;
-    gap: var(--gap-32xl);
+    gap: 16px;
   }
   .image94Icon {
     width: 80px;
     position: relative;
-    border-radius: var(--br-mid);
+    border-radius: 24px;
     height: 80px;
     object-fit: cover;
   }
@@ -119,42 +99,36 @@
   .whatsappImage20240515At2 {
     width: 388px;
     position: relative;
-    border-radius: var(--br-5xl);
+    border-radius: 24px;
     height: 383px;
     object-fit: cover;
   }
   .content1,
   .div2 {
     display: flex;
+    position: relative;
     flex-direction: column;
     align-items: center;
   }
   .content1 {
     align-self: stretch;
-    border-radius: var(--br-5xl);
+    border-radius: 24px;
     background: linear-gradient(81.63deg, #454545, #13002c);
-    height: 795px;
+    height: 624px;
     justify-content: center;
-    gap: var(--gap-25xl);
-    font-size: var(--font-size-5xl);
+    font-size: 24px;
+    top: -181px;
   }
   .div2 {
     width: 1200px;
     height: 887px;
     justify-content: space-between;
   }
-  .headInner {
-    width: 222px;
-    position: relative;
-    border-radius: var(--br-base);
-    background-color: var(--color-darkslategray);
-    height: 3px;
-  }
   .whatsappImage20240515At21,
   .whatsappImage20240515At22 {
     width: 395px;
     position: relative;
-    border-radius: var(--br-5xl);
+    border-radius: 24px;
     height: 284px;
     object-fit: cover;
   }
@@ -165,12 +139,13 @@
   .div4,
   .div9 {
     display: flex;
+    position: relative;
     align-items: center;
     justify-content: center;
   }
   .div9 {
     flex-direction: row;
-    gap: var(--gap-25xl);
+    gap: 16px;
   }
   .content2,
   .div4 {
@@ -178,19 +153,20 @@
   }
   .content2 {
     align-self: stretch;
-    border-radius: var(--br-5xl);
+    border-radius: 24px;
     background: linear-gradient(77.33deg, #454545, #13002c);
-    gap: var(--gap-25xl);
-    font-size: var(--font-size-5xl);
+    gap: 16px;
+    font-size: 24px;
   }
   .div4 {
     width: 1200px;
-    gap: var(--gap-xl);
+    top: -181px;
+    gap: 16px;
   }
   .rectangleDiv {
     width: 216px;
     position: relative;
-    border-radius: var(--br-base);
+    border-radius: 16px;
     background-color: var(--color-darkslategray);
     height: 3px;
   }
@@ -206,22 +182,17 @@
     width: 1200px;
     height: 193px;
     display: flex;
+    position: relative;
+    top: -201px;
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
-  }
-  .headChild1 {
-    width: 300px;
-    position: relative;
-    border-radius: var(--br-base);
-    background-color: var(--color-darkslategray);
-    height: 5px;
   }
   .groupChild {
     position: absolute;
     top: 0;
     left: 0;
-    border-radius: var(--br-mid);
+    border-radius: 24px;
     background-color: var(--color-gray-200);
     width: 80px;
     height: 80px;
@@ -240,7 +211,7 @@
   .currentInternationalRank {
     flex: 1;
     position: relative;
-    font-size: var(--font-size-5xl);
+    font-size: 24px;
     line-height: 50px;
     color: var(--color-white);
   }
@@ -248,33 +219,34 @@
   .div19 {
     display: flex;
     justify-content: flex-start;
-    gap: var(--gap-32xl);
+    gap: 16px;
   }
   .div19 {
     width: 1200px;
     flex-direction: row;
     align-items: center;
-    font-size: var(--font-size-17xl);
+    font-size: 24px;
     color: #29ff7e;
   }
   .content4 {
     align-self: stretch;
-    border-radius: var(--br-5xl);
+    border-radius: 24px;
     background: linear-gradient(86.17deg, #454545, #13002c);
     flex-direction: column;
     align-items: flex-start;
-    font-size: var(--font-size-5xl);
+    font-size: 24px;
   }
   .div13 {
     width: 1200px;
     align-items: center;
-    gap: var(--gap-xl);
-    font-size: var(--font-size-61xl);
+    gap: 16px;
+    top: -181px;
   }
   .achievements,
   .div13,
   .stats {
     display: flex;
+    position: relative;
     flex-direction: column;
     justify-content: flex-start;
   }
@@ -282,7 +254,6 @@
     margin: 0;
     align-items: flex-end;
     gap: 150px;
-    font-size: var(--font-size-31xl);
   }
   .achievements {
     position: absolute;
@@ -290,7 +261,7 @@
     left: 336px;
     width: 1248px;
     align-items: center;
-    gap: 156px;
+    gap: 111px;
   }
   .achinfo,
   .midinfo {
@@ -299,16 +270,16 @@
   }
   .achinfo {
     position: absolute;
-    top: 0;
-    left: calc(50% - 960px);
+    top: -69px;
+    transform: translateX(-32.4%);
     width: 1920px;
   }
   .midinfo {
-    width: 1440px;
+    width: 100%;
+    max-width: 1440px;
     background-color: var(--color-gray-200);
-    max-width: 100%;
     text-align: left;
-    font-size: 101px;
+    font-size: calc(16px + 2vw);
     color: var(--color-white);
     font-family: var(--font-silka);
   }

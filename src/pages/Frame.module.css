@@ -35,7 +35,7 @@
 }
 .myCoaches {
   position: absolute;
-  top: 4524px;
+  top: 5824px;
   left: calc(50% - 361px);
   line-height: 50px;
   font-family: var(--font-dirtyline-36daysoftype-2022);
@@ -152,6 +152,11 @@
   justify-content: center;
   align-items: center;
 }
+
+.midinfo{
+  
+}
+
 .myAchievements {
   align-self: stretch;
   flex: 1;
@@ -607,11 +612,3 @@
 }
 
 
-
-/* .Xslider {
-  position: absolute;
-  top: 6143px;
-  left: calc(50% - 4082px);
-  line-height: 50px;
-  font-weight: 900;
-} */

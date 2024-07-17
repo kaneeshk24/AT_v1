@@ -1,5 +1,5 @@
-import Xslider from "../components/Xslider";
 import Ytimeline from "../components/Ytimeline";
+import MidInfo from "../components/midinfo";
 import styles from "./Frame.module.css";
 
 const Frame = () => {
@@ -91,6 +91,7 @@ const Frame = () => {
         <div className={styles.instruction}>
           <i className={styles.clickToExpand}>Click to expand</i>
         </div>*/}
+        <MidInfo className={styles.midinfo}></MidInfo>
       </div> 
       <div className={styles.achievements1}>
         <div className={styles.myAchievements}>my Achievements</div>
@@ -158,7 +159,6 @@ const Frame = () => {
       </div>
     </div>
     </div>
-    {/* <Xslider></Xslider></> */}
     <Ytimeline /> </></></>
   );
 };
