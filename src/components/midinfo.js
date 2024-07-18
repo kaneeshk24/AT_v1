@@ -7,7 +7,7 @@ const MidInfo = ({ className = "" }) => {
       <div className={styles.achinfo}>
         <div className={styles.achievements}>
           <div className={styles.click}>
-            <i className={styles.clickToExpand}>  Click to expand</i>
+            <i className={styles.clickToExpand1}>  Click to expand</i>
           </div>
           <ul className={styles.stats}>
             <div className={styles.div}>
